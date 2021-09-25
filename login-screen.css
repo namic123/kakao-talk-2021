@@ -1,0 +1,104 @@
+.login-screen__kakao{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.login-screen__kakao-icon{
+    position: relative;
+}
+.login-screen__kakao-icon i{
+    font-size: 100px;
+    color:rgba(36, 27, 24, 0.89);
+}
+.login-screen__kakao-icon_talk{
+   position:absolute;
+    color:var(--yellow);
+    top:35px;
+    right: 12px;
+    font-size: 30px;
+    font-weight:bolder;
+    font-family: 'Varela Round', sans-serif;
+}
+.login-account-main{
+    padding:0px 50px;
+}
+.login-account-form{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+.login-account-form input,button{
+    border:0.5px solid rgba(0,0,0,0.15);
+    border-radius: 3px;
+    padding:11px 10px;
+}
+.login-account-form input:nth-child(2){
+    border-top:none;
+}
+.login-account-form input:first-child{
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.login-account-form input::placeholder{
+    color:rgba(0,0,0,0.2);
+    font-size:13px;
+}
+.login-account-form i{
+    position: absolute;
+    right:10px;
+    top:10px;
+    font-size: 19px;
+}
+.login-account-form button{
+    margin:5px 0px;
+    color:rgba(0,0,0,0.3);
+    background-color: rgb(245, 245, 245);
+}
+.automatic-login{
+    display: flex;
+    align-items: center;
+    font-size:12px;
+    
+}
+.automatic-login input[id="automatic-checkbox"]{
+    display: none;
+}
+.automatic-login input[id="automatic-checkbox"]+label:first-of-type{
+    display: inline-block;
+    width:13px;
+    height: 13px;
+    border:0.5px solid rgba(0,0,0,0.15);
+    border-radius: 3px;
+    background-color: white;
+    margin-right: 5px;
+}
+.automatic-login input[id="automatic-checkbox"]:checked+label:first-of-type::after{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content:'\2713';
+    font-size:10px;
+    font-weight: 700;
+    background-color: black;
+    color:white;
+  }
+  .login-footer{
+      display: flex;
+      margin-top: 180px;
+      justify-content: center;
+      align-items: flex-end;
+  }
+  .login-footer__column{
+      display: flex;
+      justify-content: center;
+      font-size:12px;
+  }
+  .login-footer__column div{
+      padding:0px 10px;
+  }
+  .login-footer__column div:first-child{
+      border-right:1px solid rgba(0,0,0,0.1);
+  }

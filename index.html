@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body class="login-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span class="status-bar__setting"><i class="fas fa-cog"></i></span>
+        </div>
+        <div class="status-bar__column">
+            <span><i class="fas fa-minus"></i></span>
+        </div>
+        <div class="status-bar__column">
+            <span>
+            <i class="fas fa-times"></i>
+        </span>
+        </div>
+    </div>
+    <header class="login-screen__kakao">
+        <div class="login-screen__kakao-icon">
+            <i class="fas fa-comment"></i>
+            <div class="login-screen__kakao-icon_talk">TALK</div>
+        </div>
+    </header>
+    <main class="login-account-main">
+    <form action="" method="get" class="login-account-form">
+        <input type="email" placeholder="카카오계정 (이메일또는 전화번호)">
+        <input type="password" placeholder="비밀번호">
+        <i class="fas fa-caret-down"></i>
+        <button>로그인</button>
+    </form>
+    <div class="automatic-login">
+        <input type="checkbox" id="automatic-checkbox">
+        <label for="automatic-checkbox"></label>
+        <label for="automatic-checkbox">자동로그인</label>
+        <div class="question-circle">?</div>
+    </div>
+    </main>
+    <footer class="login-footer">
+        <div class="login-footer__column">
+            <div>카카오계정 찾기</div>
+            <div>비밀번호 재설정</div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/90151b2314.js" crossorigin="anonymous"></script>
+</body>
+</html>

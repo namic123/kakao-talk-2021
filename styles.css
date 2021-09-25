@@ -1,0 +1,25 @@
+@import "variable.css";
+@import "reset.css";
+
+/*component*/
+@import "status-bar.css";
+
+/*screens*/
+@import "login-screen.css";
+
+body{
+    height:100vh;
+    background-color: var(--yellow);
+    color:var(--grey);
+}
+.question-circle{
+    text-align: center;
+    width: 14px;
+    height: 14px;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    font-weight: 900;
+    margin-left: 5px;
+    padding:1px 1px;
+}
