@@ -47,3 +47,9 @@ input,button{
 input:focus{
 	outline: none;	
 }
+a:link{
+	color:inherit;
+}
+a{
+	text-decoration: none;
+}

@@ -1,0 +1,22 @@
+.main-screen{
+    display: flex;
+    height: 85%;
+}
+.main-screen .main-screen__column:nth-child(2){
+    width:100%;
+}
+.main-screen__header{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 15px;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.main-header__title{
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.952);
+}
+.main-header__icon{
+    color:rgba(0, 0, 0, 0.808);
+    margin-left:10px;
+}

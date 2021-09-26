@@ -1,5 +1,5 @@
 .login-screen__kakao{
-
+    background-color: var(--yellow);
     display: flex;
     justify-content: center;
     align-items: center;

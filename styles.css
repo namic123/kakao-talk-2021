@@ -2,14 +2,16 @@
 @import "reset.css";
 
 /*component*/
-@import "status-bar.css";
+@import "./component/status-bar.css";
+@import "./component/navigation.css";
+@import "./component/badge.css";
 
 /*screens*/
-@import "login-screen.css";
+@import "./screen/login-screen.css";
+@import "./screen/main-screen.css";
 
 body{
     height:100vh;
-    background-color: var(--yellow);
     color:var(--grey);
 }
 .question-circle{
